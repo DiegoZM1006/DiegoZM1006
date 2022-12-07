@@ -13,13 +13,12 @@ public class Me {
 
   private String name, lastName;
   private int age;
-  public ArrayList<String> tools;
+  public ArrayList<String> tools = new ArrayList<>();;
   
   public Me(String name, String lastName, int age) {
     this.name = name;
     this.lastName = lastName;
-    this.age = age;
-    tools = new ArrayList<>(); 
+    this.age = age; 
   }
   
   @Override
@@ -40,5 +39,5 @@ public class Me {
 ```
 > Console
 ```
-Me{name='Diego Fernando', lastName='Mueses Zu�iga', age=18, tools =[HTML, CSS, JS, Java]}
+Me{name='Diego Fernando', lastName='Mueses Zuñiga', age=18, tools =[HTML, CSS, JS, Java]}
 ```
