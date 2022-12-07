@@ -5,15 +5,46 @@
 * 📫How to reach me: fernandodj2004@gmail.com
 * 😃 Fun fact: I ♥️ movies
 
-<hr>
+### Tools 🔧
 
-<!--<h1 align="center"> Tools </h1>
+```java
+package aboutMe;
+import java.util.ArrayList;
 
-<table align="center">
-  <tr>
-    <td align="center" width="100">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="50" height="50">
-      <h6> java </h6>
-    </td>
-  </tr>
-</table>-->
+public class Me {
+
+  private String name;
+  private String lastName;
+  private int age;
+  public ArrayList<String> tools;
+  
+  public Me(String name, String lastName, int age) {
+    this.name = name;
+    this.lastName = lastName;
+    this.age = age;
+    tools = new ArrayList<>(); 
+  }
+  
+  @Override
+  public String toString() {
+    return "Me{" + "name='" + name + '\'' + ", lastName='" + lastName + '\'' + ", age=" + age + ", tools =" + tools + '}';
+  }
+  
+  public static void main(String[] args) {
+  
+    Me diego = new Me("Diego Fernando", "Mueses Zuñiga", 18);
+    diego.tools.add("HTML");
+    diego.tools.add("CSS");
+    diego.tools.add("JS");
+    diego.tools.add("Java");
+    
+    System.out.println(diego.toString());
+    
+  }
+
+}
+```
+> Console
+```
+Me{name='Diego Fernando', lastName='Mueses Zu�iga', age=18, tools =[HTML, CSS, JS, Java]}
+```
