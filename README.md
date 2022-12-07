@@ -13,8 +13,7 @@ import java.util.ArrayList;
 
 public class Me {
 
-  private String name;
-  private String lastName;
+  private String name, lastName;
   private int age;
   public ArrayList<String> tools;
   
@@ -31,15 +30,12 @@ public class Me {
   }
   
   public static void main(String[] args) {
-  
     Me diego = new Me("Diego Fernando", "Mueses Zuñiga", 18);
     diego.tools.add("HTML");
     diego.tools.add("CSS");
     diego.tools.add("JS");
     diego.tools.add("Java");
-    
     System.out.println(diego.toString());
-    
   }
 
 }
