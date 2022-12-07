@@ -37,7 +37,6 @@ public class Me {
 
 }
 ```
-> Console
 ```
 Me{name='Diego Fernando', lastName='Mueses Zuñiga', age=18, tools =[HTML, CSS, JS, Java]}
 ```
