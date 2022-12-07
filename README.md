@@ -5,8 +5,6 @@
 * 📫How to reach me: fernandodj2004@gmail.com
 * 😃 Fun fact: I ♥️ movies
 
-### Tools 🔧
-
 ```java
 package aboutMe;
 import java.util.ArrayList;
