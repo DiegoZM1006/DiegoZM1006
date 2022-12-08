@@ -13,7 +13,7 @@ public class Me {
 
   private String name, lastName;
   private int age;
-  public ArrayList<String> tools = new ArrayList<>();;
+  public ArrayList<String> tools = new ArrayList<>();
   
   public Me(String name, String lastName, int age) {
     this.name = name;
