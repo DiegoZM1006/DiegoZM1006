@@ -1,7 +1,7 @@
 ### Hi there 👋
 
-* 🔭 I´m currently learning Java and MySQL
-* 📩 Ask me about anything related to Java/JavaScript
+* 🔭 I´m currently learning React
+* 📩 Ask me about anything related to Java/JavaScript/MySQL/Django
 * 📫How to reach me: fernandodj2004@gmail.com
 * 😃 Fun fact: I ♥️ movies
 
